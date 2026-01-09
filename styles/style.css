@@ -6,6 +6,7 @@ box-sizing: border-box;
 body{
  font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
+  width: 100%;
   
 
 }
@@ -44,11 +45,12 @@ nav{
 .hero-area{
   width: 100%;
   background-size: cover;
-  background-position: center;
-  background-image: url(../images/cropped-hands-woman-writing-book\ 1.jpg);
- display: flex;
+  background-position: center; 
+  
   gap: 40px;
   margin: 0 auto;
+  background-image: url(../images/cropped-hands-woman-writing-book\ 1.jpg); 
+ display: flex;
 }
 .hero-content{
 margin: 115px 120px;
@@ -105,7 +107,14 @@ span{
   border-radius: 4px;
   font-weight: 600px;
   color: #000000;
-  border: 1px solid;
+  border: none;
+
+}
+.see-btn i{
+  color: #3d4750;
+}
+.see-btn:hover{
+  background-color: aquamarine;
 }
 
 nav .menu{
@@ -190,6 +199,7 @@ nav .menu a{
 .feature-card img{
   width: 60px;
   height: 60px;
+
 }
 #solution{
   width: 100%;
