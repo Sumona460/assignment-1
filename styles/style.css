@@ -6,6 +6,8 @@ box-sizing: border-box;
 body{
  font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
+  background-size: cover;
+
 }
 header{
   background-color: #ffffff;
@@ -34,7 +36,66 @@ nav{
   font-weight: 600px;
   color: #ffffff;
 }
+.hero-area{
+  background-image: url(../images/cropped-hands-woman-writing-book\ 1.png);
+  width: 100%;
+  max-width: 1600px;
+  height: 674px;
+  display: flex;
+}
+.hero-content{
+margin: 115px 120px;
+margin-bottom: 179px;
+  width: 770px;
+  height: 168px;
+  opacity: 90%;
+  gap: 32px;
+ text-align: center;
+}
+.hero-area a{
+  background-color: #ffffff;
+  text-decoration: none;
+  color: #469165;
+  width: 229px;
+  height: 35px;
+  border-radius: 1000px;
+  padding: 8px 12px;
+  gap: 6px;
+}
+.hero-content h1{
+color: #ffffff;
+font-size: 72px;
+line-height: 84px;
+font-weight: 700px;
 
+
+}
+span{
+  color: #469165;
+
+
+}
+.start-btn{
+  margin-top: 32px;
+  background-color: #469165;
+  font-size: 16px;
+  width: 251px;
+  height: 52px;
+  border-radius: 4px;
+  padding: 12px 16px;
+  gap: 10px;
+  border: none;
+  color: #ffffff;
+
+}
+.see-btn{
+  width: 198px;
+  height: 52px;
+  font-size: 16px;
+  font-weight: 600px;
+  color: #ffffff;
+  border: 1px solid #ffffff;
+}
 nav .menu{
     display: flex;
     list-style: none;
@@ -47,4 +108,37 @@ nav .menu a{
   color:#000000;
   font-size: 16px;
   text-decoration: none;
+}
+.hero-area{
+  width: 100%;
+  max-width: 1600px;
+}
+#feature{
+  width: 1360px;
+  height: 116px;
+  padding: 120px 120px 120px;
+  gap: 44px;
+  display: flex;
+  
+}
+#feature h2{
+  font-size: 48px;
+  font-weight: 700px;
+  align-items: center;
+}
+.feature-box {
+  width: 322px;
+  height: 300px;
+  gap: 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer{
+  background-color: #001931;
+  width: 100%;
+  max-width: 1600px;
+}
+.footer i{
+  color: #ffffff;
 }
