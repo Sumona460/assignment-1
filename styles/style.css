@@ -42,20 +42,19 @@ nav{
   color: #469165;
 }
 .hero-area{
+  width: 100%;
   background-size: cover;
-  background-image: url(../images/cropped-hands-woman-writing-book\ 1.png);
-  width: 1600px;
-  height: 674px;
-  display: flex;
+  background-position: center;
+  background-image: url(../images/cropped-hands-woman-writing-book\ 1.jpg);
+ display: flex;
   gap: 40px;
   margin: 0 auto;
-  
 }
 .hero-content{
 margin: 115px 120px;
 margin-bottom: 179px;
-  width: 770px;
-  height: 168px;
+   width: 770px;
+  height: 168px; 
   opacity: 90%;
   gap: 32px;
  text-align: center;
@@ -200,10 +199,8 @@ nav .menu a{
   display: flex;
   padding: 120px;
 }
-#solution .picture{
-  width: 600px;
-  height: 600px;
-  gap: 60px;
+.solution-text h4{
+  color: #469165;
 }
 .solution-text{
   width:700px ;
@@ -223,14 +220,14 @@ nav .menu a{
   padding-bottom: 20px;
   word-wrap: wrap;
 }
- .solution-text p{
-display: flex;
-color: black;
+.circle-icon ul li{
+  list-style: none;
+  line-height: 35px;
 }
-.solution-text h4{
-  color: #469165;
-  font-size: 16px;
-  line-height: 20px;
+.circle-icon i{
+       color: #469165 ;
+       padding-right: 30px;
+      
 }
 .last{
   width: 1360px;
