@@ -37,6 +37,10 @@ nav{
   font-weight: 600px;
   color: #ffffff;
 }
+.all-button:hover{
+  background-color: #F7F6F2;
+  color: #469165;
+}
 .hero-area{
   background-size: cover;
   background-image: url(../images/cropped-hands-woman-writing-book\ 1.png);
@@ -68,16 +72,15 @@ margin-bottom: 179px;
 }
 .hero-content h1{
 color: #ffffff;
-font-size: 72px;
+font-size: 62px;
 line-height: 84px;
 font-weight: 700px;
-
-
 }
 span{
   color: #469165;
-
-
+}
+.hero-content p{
+  color: #F7F6F2;
 }
 .start-btn{
   margin-top: 32px;
@@ -92,14 +95,20 @@ span{
   color: #ffffff;
 
 }
+.start-btn:hover{
+  background-color: #F7F6F2;
+  color: #469165;
+}
 .see-btn{
   width: 198px;
   height: 52px;
   font-size: 16px;
+  border-radius: 4px;
   font-weight: 600px;
-  color: #ffffff;
-  border: 1px solid #ffffff;
+  color: #000000;
+  border: 1px solid;
 }
+
 nav .menu{
     display: flex;
     align-items: center;
@@ -154,7 +163,7 @@ nav .menu a{
 .feature-card{
   width: 322px;
   height: 300px;
-  box-shadow: 6px 0px 15px rgb(209, 192, 192);
+  box-shadow: 6px 0px 15px rgb(235, 230, 230);
   font-size: 24px;
   font-weight: 600px;
   line-height: 100%;
@@ -230,14 +239,18 @@ color: black;
 
 }
 .last .get-ready{
-  background-color: #F7F6F2;
-  width: 70%;
+  width: 1600px;
   height: 384px;
   text-align: center;
 
 }
+.middle{
+  background-color: #F7F6F2;
+  padding: 30px;
+}
 .get-ready .content{
   margin-top: 80px;
+
 }
 .get-ready h2{
   font-size: 40px;
@@ -248,11 +261,18 @@ color: black;
   line-height: 24px;
   margin-bottom: 24px;
 }
+
+ .footer-section{
+  width: 1600px;
+
+
+
+}
 .footer{
   background-color: #001931;
   width: 1360px;
   max-width: 1600px;
-  height: 448px;
+  height: 348px;
   padding: 120px 120px 120px;
   gap: 44px;
   
@@ -261,7 +281,6 @@ color: black;
 
 .footer .social{
   color: #ffffff;
-  display: inline-block;
   justify-content: space-between;
 
   
@@ -270,18 +289,21 @@ color: black;
   display: flex;
   justify-content: space-around;
 }
+
 .social{
   font-size: 20px;
   vertical-align: center;
   line-height: 28px;
-  padding-right: ;
+  padding-right: 120px;
+
+
 }
 .copyright{
   width: 1360px;
   height: 54px;
   text-align: center;
   color: #ffffff;
-  padding-top: 200px;
+  padding-top: 100px;
   line-height: 55px;
   align-items: center;
   padding-left: 120px;
